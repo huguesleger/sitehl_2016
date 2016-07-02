@@ -516,22 +516,19 @@ body {
 .navbar-main .navbar-toggle .icon-bar {
   background-color: #000; }
 
-.navbar-main .navbar-nav > .open > a,
-.navbar-main .navbar-nav > .open > a:hover,
-.navbar-main .navbar-nav > .open > a:focus {
-  color: #555;
-  background-color: #e7e7e7; }
-
 .navbar-right {
   margin-right: -38px; }
 
 .navbar-brand {
-  background-color: #696969;
+  background: dimgray;
   height: 86px;
   padding-top: 2px;
-  transition: all 0.4s ease-in-out; }
-  .navbar-brand:hover {
-    transition: all 0.5s ease-in-out; }
+  transition: 0.4s; }
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  background: rgba(105, 105, 105, 0.7);
+  transition: 0.5s; }
 
 .navbar-fixed-top {
   top: 0;
