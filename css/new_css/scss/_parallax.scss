@@ -1,0 +1,46 @@
+
+/*-------------parallax----------------*/
+
+.container-scenes {
+  background-color: #696969;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin:0 auto;
+  padding-bottom: 35px;
+    
+    img {
+  display: block;
+  width: 100%;
+}
+}
+
+.scene {
+  width: 100%;
+  margin-top:-5px;
+  padding-right: 5%;
+
+}
+
+.scene2 {
+  width: 100%;
+  display: inherit;
+  margin-top: -58%;
+  margin-left: 2%;
+
+}
+.scene3 {
+  width: 100%;
+  display: inherit;
+  margin-top: -55%;
+  margin-left: 5%;
+
+}
+.scene4 {
+  width: 100%;
+  display: inherit;
+  margin-top: -55%;
+  margin-left: 10px;
+
+}
+/*------------fin-parallax----------------*/

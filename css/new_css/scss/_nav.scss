@@ -1,0 +1,80 @@
+.navbar {
+  position: relative;
+  min-height: 80px;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.navbar-main {
+  background-color: #03C9A9;
+}
+
+.navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+  }
+
+.navbar-main .navbar-nav > li > a {
+  color: #fff;
+  font-size: 18px;
+}
+.navbar-main .navbar-nav > li > a:hover,
+.navbar-main .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-main .navbar-nav > .active > a,
+.navbar-main .navbar-nav > .active > a:hover,
+.navbar-main .navbar-nav > .active > a:focus {
+  color: #333;
+  background-color: #1BBC9B;
+}
+.navbar-main .navbar-nav > .disabled > a,
+.navbar-main .navbar-nav > .disabled > a:hover,
+.navbar-main .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+
+.navbar-main .navbar-toggle:hover {
+  background-color: #1BA39C;
+}
+.navbar-main .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-main .navbar-nav > .open > a,
+.navbar-main .navbar-nav > .open > a:hover,
+.navbar-main .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+.navbar-brand {
+  float: left;
+  height: 100px;
+  padding: 10px 30px;
+  font-size: 18px;
+  line-height: 15px;
+  background-color: #1BA39C;
+  border-right: 50px solid #03C9A9;
+  transition: 0.5s;
+}
+
+.navbar-main .navbar-brand:hover,
+.navbar-main .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: #1BBC9B;
+  transition: 0.5s;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+

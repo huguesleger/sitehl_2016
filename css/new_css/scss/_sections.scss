@@ -1,0 +1,207 @@
+/*----------section-web----------*/
+.work-content{
+    background-image: url('../../images/img-fond.jpg');
+    background-attachment: fixed;
+}
+
+.title-work{
+    text-align: center;
+    color: #fff;
+
+}
+
+/*---------fin-section-web----------*/
+
+/*----------section-print----------*/
+
+.print-content{
+    position: relative;
+    margin: 0;
+}
+
+.title-print h2{
+    height: 80px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: yellow;
+}
+
+.detail-print{
+    margin-top: -70px;
+    font-size: 30px;
+    color: #222;
+}
+
+
+.detail-print-white{
+    margin-top: -70px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.txt-print{
+    margin-top: -35px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.txt-print-grey{
+    margin-top: -35px;
+    font-size: 18px;
+    color: #222;
+}
+
+.btn-detail{
+    background: rgba(255,255,255,0.7);
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+     &:hover{
+        transition: all 0.2s ease-in-out;
+        margin-top: -5px;
+    }
+}
+
+.btn-detail-black{
+    background: rgba(0,0,0,0.8);
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+     &:hover{
+        transition: all 0.2s ease-in-out;
+         margin-top: -5px;
+    }
+}
+
+.fa.fa-picture-o{
+  text-decoration: none;
+  padding-top: 18px;
+  padding-left: 17px;
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  color:#555;
+}
+
+.txt-btn{
+  width: 80px;
+  left: 5px;
+  margin-top: -27px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.txt-btn-black{
+  width: 80px;
+  left: 5px;
+  margin-top: -27px;
+  font-size: 13px;
+  color: #000;
+}
+/*---------fin-section-print----------*/
+
+/*----------section-qui-je-suis----------*/
+
+.title-moi h2{
+    height: 80px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: yellow;
+}
+
+.title-present{
+    text-align: center;
+}
+
+.txt-present{
+    text-align: justify;
+}
+
+.img-present{
+    display: flex;
+    justify-content: center;
+}
+
+/*----------section-qui-je-suis----------*/
+
+/*----------section-cv----------*/
+
+.title-cv h2{
+    height: 80px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: yellow;
+}
+
+.beweb{
+    text-align: justify;
+     h3{
+        text-align: center;
+    }
+}
+
+.aries{
+    text-align: justify;
+     h3{
+        text-align: center;
+    }
+}
+
+.esma{
+    text-align: justify;
+
+    h3{
+        text-align: center;
+    }
+}
+
+/*---------fin-section-cv----------*/
+
+
+
+/*---------detail-work---------*/
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  margin-right: auto;
+  margin-left: auto;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #337ab7;
+}
+.thumbnail.caption {
+  padding: 9px;
+  color: #333;
+}
+
+/*--------fin-detail-work---------*/
+
+
+.test{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+
+}
