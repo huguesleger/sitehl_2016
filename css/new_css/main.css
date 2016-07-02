@@ -480,13 +480,15 @@ body {
   background-color: #F6F7F2; }
 
 .main {
-  background-color: #fff; }
+  background-color: #fff;
+  /*----choise-color-menu----*/ }
 
 .navbar {
   min-height: 85px;
+  /*----choise-hauteur-min-menu----*/
   margin-bottom: 0; }
 
-.navbar-default {
+.navbar-main {
   border: none; }
 
 .navbar-nav li a {
@@ -496,12 +498,29 @@ body {
   padding-bottom: 10px;
   line-height: 42px; }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-main .navbar-nav > li > a {
+  color: #777; }
+
+.navbar-main .navbar-nav > li > a:hover,
+.navbar-main .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent; }
+
+.navbar-main .navbar-nav > .active > a,
+.navbar-main .navbar-nav > .active > a:hover,
+.navbar-main .navbar-nav > .active > a:focus {
   color: #555;
   border-bottom: 2px solid;
   background-color: transparent; }
+
+.navbar-main .navbar-toggle .icon-bar {
+  background-color: #000; }
+
+.navbar-main .navbar-nav > .open > a,
+.navbar-main .navbar-nav > .open > a:hover,
+.navbar-main .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7; }
 
 .navbar-right {
   margin-right: -38px; }
@@ -517,8 +536,37 @@ body {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
-  opacity: 0.7; }
+  background: rgba(255, 255, 255, 0.9); }
 
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/*----responsive-mobile-----*/
+@media (min-width: 320px) and (max-width: 760px) {
+  .navbar-main .navbar-nav > .active > a,
+  .navbar-main .navbar-nav > .active > a:hover,
+  .navbar-main .navbar-nav > .active > a:focus {
+    color: #555;
+    border-bottom: none;
+    background: rgba(26, 188, 144, 0.5); }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    background: white; }
+
+  .navbar-right {
+    margin-right: 0px; }
+
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 540px; } }
+/*---fin-responsive-mobile-----*/
 /*----------section-web----------*/
 .work-content {
   background-image: url("../../images/img-fond.jpg");
