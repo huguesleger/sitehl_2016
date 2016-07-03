@@ -400,18 +400,6 @@ textarea {
   margin-left: 10px; }
 
 /*------------fin-parallax----------------*/
-.jumbotron {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  color: inherit;
-  background-color: transparent; }
-
-.jumbotron-img {
-  background-image: url("../../images/img-fond.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .header-title {
   position: absolute;
   top: 0;
@@ -422,61 +410,48 @@ textarea {
   background: rgba(0, 0, 0, 0.7);
   height: 100%; }
 
-.container .jumbotron,
-.container-fluid .jumbotron {
-  padding-right: 50px;
-  padding-left: 50px;
-  border-radius: 0; }
+#title {
+  position: relative; }
 
-.title {
-  width: 100%;
-  text-align: center; }
-
-.jumbotron h1 {
-  padding-left: 42.4%;
-  padding-top: 45%;
+#title .caption {
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   text-align: center;
-  font-size: 63px;
-  color: #fff;
-  font-weight: 900; }
-  .jumbotron h1 span {
-    color: #000; }
-
-.jumbotron p {
-  margin-top: -6%;
-  padding-left: 44%;
-  color: #fff;
-  font-size: 23px; }
-  .jumbotron p span {
-    color: #000; }
+  text-transform: uppercase;
+  z-index: 15;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff; }
 
 .brand-header img {
-  padding-top: 43%;
-  position: absolute;
-  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
   width: auto; }
 
-.header {
-  padding-top: 5%;
-  position: absolute;
-  font-size: 30px; }
-
-.btn {
-  width: 100px;
-  display: block;
-  text-transform: uppercase;
-  background-color: transparent;
-  border-radius: 2px;
-  border-color: #fff;
-  opacity: 0.8;
+#title .caption h1 {
   color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px; }
+
+.caption .btn-start {
+  color: #fff;
+  font-size: 14px;
   font-weight: 600;
+  padding: 14px 40px;
+  border: 1px solid #6e6d6c;
+  border-radius: 4px;
+  margin-top: 40px; }
+
+.caption .btn-start:hover {
+  color: #fff;
+  background-color: #23918a;
+  border-color: #49c7bf;
   transition: all 0.5s ease-in-out; }
-  .btn:hover {
-    background-color: #23918a;
-    border-color: #49c7bf;
-    transition: all 0.5s ease-in-out;
-    color: #fff; }
 
 .fa-angle-down {
   padding-top: 50px;
@@ -488,6 +463,54 @@ textarea {
   -webkit-animation: bounce 3000ms infinite;
   animation: bounce 3000ms infinite; }
 
+@media (max-width: 639px) {
+  #title .caption {
+    font-size: 12px;
+    padding: 0 20px; }
+
+  .brand-header img {
+    margin-top: -60px; }
+
+  #title .caption h1 {
+    padding-top: 2px;
+    font-size: 22px; }
+
+  #title .caption p {
+    margin-top: -5px; }
+
+  .caption .btn-start {
+    color: #fff;
+    font-size: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 200;
+    border: 1px solid #6e6d6c;
+    border-radius: 90px;
+    margin-top: -5px; }
+
+  .header .fa-angle-down {
+    display: none; } }
+@media (min-width: 640px) and (max-width: 740px) {
+  #title .caption {
+    font-size: 12px;
+    padding: 0 20px; }
+
+  .brand-header img {
+    margin-top: -60px;
+    padding-bottom: 10px; }
+
+  #title .caption h1 {
+    padding-top: 20px;
+    font-size: 22px; }
+
+  #title .caption p {
+    margin-top: -5px; }
+
+  .caption .btn-start {
+    margin-top: 15px; }
+
+  .header .fa-angle-down {
+    display: none; } }
 #container {
   width: 100%;
   padding-right: 0;
